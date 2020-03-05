@@ -17,9 +17,6 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 app.use(compression());
-
-
-
 //
 //session 선언 -> flash 선언 -> passport 선언
 ///////////////////////////////////////
