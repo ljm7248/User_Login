@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "mvj-MtRm",
+      "email": "ljm7248@naver.com",
+      "password": "$2a$10$4aPLXDp7f3XcBBKD6sxem.e0RnRVbKOk5s8f4yskjaxzEBVRB0vHm",
+      "displayName": "이재민"
+    }
+  ],
+  "topics": [
+    {
+      "id": "x0H5SMXA",
+      "title": "노드제이에스",
+      "description": "너무 어렵다 ㅅㅂ",
+      "user_id": "ukZ-7Hcm"
+    },
+    {
+      "id": "TE_ChtNK",
+      "title": "타이틀77",
+      "description": "설명입니다kkㅓㅓ",
+      "user_id": "H7ADnLir"
+    }
+  ]
+}
