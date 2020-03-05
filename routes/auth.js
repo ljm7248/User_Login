@@ -18,7 +18,7 @@ module.exports = function (passport) {
     var title = 'Jamin World';
     var list = template.list(request.list);
     var html = template.HTML(title, list, `
-      <div style="color:red;">${feedback}</div>
+      <div style="color:red;" class="inner_login" >${feedback}</div>
       <form action="/auth/login_process" method="post">
         <p><input type="text" name="email" placeholder="email"></p>
         <p><input type="password" name="pwd" placeholder="password"></p>
