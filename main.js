@@ -10,6 +10,9 @@ var FileStore = require('session-file-store')(session)
 var flash = require('connect-flash');
 var db = require('./lib/db');
 
+app.set('port', (process.env.PORT || 5000));
+
+
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({
   extended: false
@@ -65,6 +68,6 @@ app.use(function (err, req, res, next) {
   res.status(500).send('Something broke!')
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-});
+app.listen(app.get('port'), () => {
+  console.log('running on port', app.get('port'));
+})
