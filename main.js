@@ -26,7 +26,6 @@ app.use(session({
   saveUninitialized: true,
   //파일 스토어 사용하겠다.
   store: new FileStore()
-  
 }))
 //flash 미들웨어
 app.use(flash());
