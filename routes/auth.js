@@ -15,7 +15,7 @@ module.exports = function (passport) {
     if (fmsg.error) {
       feedback = fmsg.error[0];
     }
-    var title = 'WEB - login';
+    var title = 'Jamin World';
     var list = template.list(request.list);
     var html = template.HTML(title, list, `
       <div style="color:red;">${feedback}</div>
@@ -44,7 +44,7 @@ module.exports = function (passport) {
       if (fmsg.error) {
         feedback = fmsg.error[0];
       }
-      var title = 'WEB - login';
+      var title = 'Jamin World';
       var list = template.list(request.list);
       var html = template.HTML(title, list, `
         <div style="color:red;">${feedback}</div>
