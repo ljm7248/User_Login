@@ -29,7 +29,7 @@ app.use(session({
 }))
 //flash 미들웨어
 app.use(flash());
-
+//
 //passport 미들웨어
 var passport = require('./lib/passport')(app);
 ///////////////////////////////////////
